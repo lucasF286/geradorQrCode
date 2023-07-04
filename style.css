@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 15px;
+}
+
+.form {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+input {
+    height: 1.5rem;
+    width: 10rem;
+    border-radius: 5%;
+    outline: none;
+    border: none;
+    background-color: rgba(0 ,0 ,0 , 0.1);
+}
+
+.container {
+width: 100vw;
+height: 100vh;
+background: rgba(250 ,128 ,114, 1);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.boxQrCode {
+    text-align: center;
+    background-color: #FFF;
+    min-width: 30rem;
+    min-height: 30rem;
+    border-radius: 5%;
+}
+
+.qr-code {
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+button {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(250 ,128 ,114, 1);
+    color: #FFF;
+}
