@@ -1,4 +1,5 @@
 const generateBtn = document.querySelector("#gerenate-btn");
+const input = document.querySelector("#qr-text");
 
 const qrCodeDiv = document.querySelector(".qr-code");
 
@@ -9,4 +10,7 @@ generateBtn.addEventListener("click", () => {
         qrCodeDiv.innerHTML = "";
         const qrCode = new QRCode(qrCodeDiv, qrText);
     }
+
+    input.value = '';
+    
 })
